@@ -132,8 +132,8 @@ function dodajSmeske(vhodnoBesedilo) {
   return vhodnoBesedilo;
 }
 $('#seznam-uporabnikov').click(function(merd) {
-    var vzdevek=$(merd.target).text();
+    var vzdevek = $(merd.target).text();
 
-$('#poslji-sporocilo').val('/zasebno "' + vzdevek + '"');
-$('#poslji-sporocilo').focus();
+  $('#poslji-sporocilo').val('/zasebno "' + vzdevek + '"');
+  $('#poslji-sporocilo').focus();
 }); 
